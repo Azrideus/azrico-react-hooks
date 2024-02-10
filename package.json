@@ -1,0 +1,56 @@
+{
+    "name": "@azrico/react-hooks",
+    "version": "1.0.0",
+    "description": "extended hook for react",
+    "author": "Azrideus",
+    "license": "MIT",
+    "repository": "/azrico-react-hooks",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "source": "./index.ts",
+    "engines": {
+        "node": ">=10"
+    },
+    "scripts": {
+        "build": "tsc && babel dist --out-dir dist",
+        "test": "yarn jest",
+        "performance": "node benchmark/benchmark.js",
+        "test-eq": "yarn jest -t 'object_equals_adv' --watch"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.13.14",
+        "@babel/core": "^7.13.15",
+        "@babel/eslint-parser": "^7.12.17",
+        "@babel/node": "^7.13.13",
+        "@babel/plugin-proposal-class-properties": "^7.12.13",
+        "@babel/preset-env": "^7.13.15",
+        "@babel/preset-typescript": "^7.14.5",
+        "@types/jest": "^26.0.23",
+        "@types/lodash.clonedeep": "^4.5.6",
+        "@types/react": "^17.0.11",
+        "@types/react-router-dom": "^5.1.7",
+        "babel-preset-minify": "^0.5.1",
+        "benny": "^3.6.15",
+        "cross-env": "^7.0.2",
+        "eslint": "^6.8.0",
+        "eslint-config-prettier": "^6.7.0",
+        "eslint-config-standard": "^14.1.0",
+        "eslint-config-standard-react": "^9.2.0",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-node": "^11.0.0",
+        "eslint-plugin-prettier": "^3.1.1",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-react": "^7.17.0",
+        "eslint-plugin-standard": "^4.0.1",
+        "jest": "^27.0.5",
+        "prettier": "^2.0.4",
+        "ts-jest": "^27.0.3",
+        "typescript": "^4.3.4"
+    },
+    "files": [
+        "dist"
+    ],
+    "dependencies": {
+        "react": "^18.2.0"
+    }
+}
