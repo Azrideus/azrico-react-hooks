@@ -4,4 +4,7 @@ Most of these hooks are for my personal usage
 ```
 useForceUpdate
 useIsMobile
+useRealtimeAgo
+useScreenSize
+useDebouncedValue
 ```
