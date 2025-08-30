@@ -3,3 +3,4 @@ export * from "./useIsMobile";
 export * from "./useScreenSize";
 export * from "./useDebouncedValue";
 export * from "./useRealtimeAgo";
+export * from "./useDebouncedCallback";
